@@ -205,3 +205,38 @@
   font-weight: 400;
 }
 
+.gallery {
+  margin-top: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem);
+  display: grid;
+  gap: var(--gallery-gap);
+  grid-template-columns: 1fr;
+  padding: 0 var(--page-padding);
+}
+
+.gallery__heading {
+  font-weight: 700;
+  font-size: var(--main-text-size);
+  line-height: 130%;
+}
+
+.gallery__img {
+  max-inline-size: 100%;
+}
+
+.footer {
+  margin-top: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);;
+  padding: var(--page-padding);
+  block-size: max(100vh, 668px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: var(--title-text-size);
+  line-height: 83%;
+  text-transform: lowercase;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}

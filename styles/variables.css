@@ -19,4 +19,5 @@
   --link-effects-color: #FF0070;
   --rec-display: flex;
   --page-padding: 10px; /*для медиа */
+  --gallery-gap: 10px; /*для медиа */
 }
