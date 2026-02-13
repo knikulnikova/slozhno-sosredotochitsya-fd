@@ -1,22 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
-  --main-font-family: 'IBM Plex mono';
+  --main-font-family: "IBM Plex mono";
   --main-text-size: 18px;
   --bg-img: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --title-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --title-text-color: #DB00FF;
-  --accent-color: #FF0070;
-  --decor-color: #FF0070;
-  --hover-color:rgba(255, 0, 112, 0.4);
-  --subtitle-text-color: #FF0070;
-  --heading-bg-color: #FF0070;
+  --title-text-color: #db00ff;
+  --accent-color: #ff0070;
+  --decor-color: #ff0070;
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --subtitle-text-color: #ff0070;
+  --heading-bg-color: #ff0070;
   --heading-text-color: #000028;
-  --text-color: #F1B2CE;
-  --link-effects-color: #FF0070;
+  --text-color: #f1b2ce;
   --rec-display: flex;
   --page-padding: 10px;
   --gallery-gap: 10px;
@@ -24,8 +19,8 @@
 
 @media (min-width: 768px) {
   :root {
-  --title-text-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --page-padding: 20px;
-  --gallery-gap: 20px;
+    --title-text-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --page-padding: 20px;
+    --gallery-gap: 20px;
   }
 }
